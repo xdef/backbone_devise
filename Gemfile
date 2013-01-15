@@ -5,6 +5,7 @@ gem 'pg',                             '0.13.2'
 gem 'jquery-rails',                   '2.0.2'
 gem 'jbuilder',                       '0.4.0'
 gem 'devise',                         '2.1.0'
+gem 'sqlite3'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -19,6 +20,7 @@ group :assets do
   gem 'bootstrap-sass',               '2.0.3.1'
   gem 'uglifier',                     '1.2.4'
   gem 'handlebars_assets',            '0.4.4'
+  gem 'coffee-rails'
 end
 
 # To use debugger
